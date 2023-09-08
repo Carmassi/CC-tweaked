@@ -3,7 +3,7 @@ os.pullEvent = os.pullEventRaw
 print("Whats the password?: ")
 local answer = read("*")
 
-local password = "password.txt"
+local password = 'https://github.com/Carmassi/CC-tweaked/blob/e3121ada321e37bad0d2504c401e5a3198a82b0c/programs/start/password.txt'
 local file = fs.open(password, "r")
 local fileContents = file.readAll()
 file.close()
