@@ -4,7 +4,6 @@ print("Whats the password?: ")
 local answer = read("*")
 
 local password = "password.txt"
-
 local file = fs.open(password, "r")
 local fileContents = file.readAll()
 file.close()
